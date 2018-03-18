@@ -327,3 +327,113 @@ h2 {
 .num-content p {
     padding-top: 15px;
 }
+
+/* Contact */
+
+.section-contact {
+    background-color: white;
+    padding: 10rem 0;
+}
+
+#contact .col-form-label {
+    font-size: 20px;
+}
+
+#form {
+    padding-top: 5rem;
+}
+
+textarea:focus,
+input:focus {
+    border-color: rgba(19, 128, 36, 0.53) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(19, 128, 36, 0.95) !important;
+}
+
+#contact .btn.btn-success {
+    background-color: rgba(19, 128, 36, 1);
+    border: 1px solid rgba(19, 128, 36, 1);
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#contact .btn.btn-success:hover {
+    background-color: rgba(19, 128, 36, 0.9);
+    border: 1px solid rgba(19, 128, 36, 1);
+    transition: 0.5s;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding-right: 15px;
+}
+
+/* .social-links li:last-child {
+    margin-right: 0px;
+} */
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    font-size: 160%;
+    transition: 0.2s;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-google-plus-square,
+.fa-instagram {
+    transition: 0.2s;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #00aced;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+.fa-chevron-circle-up {
+    margin-top: 30px;
+    color: rgb(14, 96, 27);
+    transition: 0.2s;
+}
+
+.fa-chevron-circle-up:hover {
+    color: rgb(14, 96, 27, 0.92);
+    transition: 0.2s;
+}
