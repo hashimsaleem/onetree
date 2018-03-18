@@ -249,3 +249,38 @@ body {
     background-size: cover;
     color: white;
 }
+
+/* Cards */
+
+#section-cards h2 {
+    text-align: center;
+}
+
+#section-cards {
+    padding: 5rem 0;
+}
+
+.card-block {
+    padding: 1rem;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.card img {
+    transition: 1s;
+}
+
+.card img:hover {
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.card a {
+    color: rgba(19, 128, 36, 0.9);
+}
+
+.card a:hover {
+    color: rgb(19, 128, 36);
+}
