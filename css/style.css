@@ -38,8 +38,8 @@ body {
 .moto {
     font-family: 'Cubano-Regular';
     font-size: 3rem;
-    margin-top: 245px;
-    margin-left: 350px;
+    margin: 245px auto 350px auto;
+    /* margin-left: 350px; */
     text-align: center;
 }
 
@@ -478,4 +478,38 @@ footer p {
 .fa-chevron-circle-up:hover {
     color: rgb(14, 96, 27, 0.92);
     transition: 0.2s;
+}
+
+/* responsiveness */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 38px;
+    }
+
+    .navbar {
+        font-size: 15px;
+    }
+
+    /* .fa-arrow-down {
+        position: absolute;
+        right: 135px;
+    } */
+
+    .wall-sticker {
+        padding: 10.5rem 15rem 3rem 2.25rem;
+        font-size: 4rem;        
+    }
+
+    .moto {
+        font-size: 2.5rem;
+        margin-top: 190px;
+        margin-left: 175px;
+        margin-right: 100px;
+    }
+
+
 }

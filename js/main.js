@@ -12,6 +12,25 @@ $(document).ready(function () {
     });
 });
 
+$(function () {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+});
+
+$("#cover a[href^='#']").on('click', function (e) {
+    e.preventDefault();
+
+    var hash = this.hash;
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top
+    }, 900, function () {
+        window.location.hash = hash;
+    });
+
+});
+
 $(".navbar-dark ul li a[href^='#']").on('click', function (e) {
     e.preventDefault();
 
